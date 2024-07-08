@@ -1,0 +1,25 @@
+.navbar {
+	&__container {
+		padding: 1rem 0;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	&__logo {
+		width: auto;
+	}
+
+	&__info {
+		display: flex;
+		gap: 1rem;
+
+		&__contact {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 0.275rem;
+		}
+	}
+}

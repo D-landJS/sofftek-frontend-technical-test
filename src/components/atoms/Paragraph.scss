@@ -1,0 +1,32 @@
+.paragraph {
+	font-size: 0.955rem;
+	color: #03050f;
+
+	&.small {
+		font-size: 0.775rem;
+	}
+	&.large {
+		font-size: 1rem;
+	}
+	&.primary {
+		color: #f8f9ff;
+	}
+	&.secondary {
+		color: #6c757d;
+	}
+	&.fw-300 {
+		font-weight: 300;
+	}
+	&.fw-400 {
+		font-weight: 400;
+	}
+	&.fw-500 {
+		font-weight: 500;
+	}
+	&.fw-600 {
+		font-weight: 600;
+	}
+	&.fw-700 {
+		font-weight: 700;
+	}
+}
